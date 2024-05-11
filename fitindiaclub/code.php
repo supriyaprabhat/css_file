@@ -34,7 +34,7 @@
         // Check if cURL request was successful and response is as expected
         if ($response !== false) {
             // Redirect to thank you page if cURL request was successful
-            header("Location: thanks.html");
+            header("Location: https://fitindiaclub.com/best-online-yoga-trainer-in-delhi/thanks.html");
             exit();
         } else {
             // Handle the case if cURL request fails

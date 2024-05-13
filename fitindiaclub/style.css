@@ -887,7 +887,7 @@ p.description {
     p.desription {
 	font-size: 12px;
     }
-    learn-more {
+    .learn-more {
 	display: block;
     }
 }

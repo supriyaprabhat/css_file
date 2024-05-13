@@ -757,9 +757,7 @@ a:focus {
         margin-bottom: 30px;
         height: auto;
     }
-    .swiper-slide {
-        height: 480px;
-    }
+    
 }
 
 /* Slider */
@@ -849,7 +847,7 @@ a:focus {
 }
 
 .description {
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     text-align: center;
 }
@@ -877,6 +875,13 @@ a:focus {
     border-radius: 0 25px 0 0;
 }
 
+
+@media (max-width: 320px) {
+    .swiper-slide {
+        height: 480px;
+    }
+    
+}
 
 /*******************************/
 /********* Service CSS *********/

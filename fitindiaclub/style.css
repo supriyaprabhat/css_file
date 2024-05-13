@@ -846,7 +846,7 @@ a:focus {
     color: #333;
 }
 
-p .description {
+p.description {
     font-size: 12px;
     color: #000;
     text-align: center;

@@ -847,7 +847,7 @@ a:focus {
 }
 
 p.description {
-    font-size: 12px;
+    font-size: 20px;
     color: #000;
     text-align: center;
 }
@@ -876,11 +876,13 @@ p.description {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 575px) {
     .swiper-slide {
         height: 480px;
     }
-    
+    p.desription {
+	font-size: 12px;
+    }
 }
 
 /*******************************/

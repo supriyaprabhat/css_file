@@ -754,6 +754,9 @@ a:focus {
         margin-bottom: 30px;
         height: auto;
     }
+    .swiper-slide {
+        height: 480px;
+    }
 }
 
 /* Slider */

@@ -852,6 +852,10 @@ p.description {
     text-align: center;
 }
 
+.learn-more {
+	display: none;
+}
+
 .overlay {
     position: absolute;
     left: 0;
@@ -882,6 +886,9 @@ p.description {
     }
     p.desription {
 	font-size: 12px;
+    }
+    learn-more {
+	display: block;
     }
 }
 
